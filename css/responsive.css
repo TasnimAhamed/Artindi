@@ -541,10 +541,10 @@
         margin-right: 0;
     }
     .card1 .card-header {
-        padding: 4rem 2rem;
+        padding: 4rem 4rem;
     }
     .package-area .card .card-body{
-        padding-left: 2rem;
+        padding-left: 4rem;
         padding-right: 2rem;
     }
     .card2{
@@ -552,14 +552,14 @@
         transform: scale(1);
     }
     .card2 .card-header{
-        padding-left: 2rem;
+        padding-left: 3rem;
         padding-bottom: 3.6rem;
     }
     .card2 .card-header img{
         width:11rem;
     }
     .card2 .package-price{
-        padding-left: 1rem;
+        padding-left: 2.5rem;
     }
     .card3{
         width: 100%;
@@ -574,7 +574,7 @@
         width: 12rem;
     }
     .package-price{
-        padding-left: 2rem;
+        padding-left: 3rem;
     }
     .package-price h3 {
         font-size:2.5rem;
