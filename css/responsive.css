@@ -81,7 +81,7 @@
     /*Service Banner End*/
 
     /*Package Area*/
-    .package-area .col-md-4{
+    .package-area .col-xl-4{
         padding-right: 15px;
         padding-left: 15px;
     }
@@ -215,7 +215,7 @@
 
 
     /*Package Area*/
-    .package-area .col-md-4{
+    .package-area .col-xl-4{
         padding-right: 15px;
         padding-left: 15px;
     }
@@ -541,43 +541,46 @@
         margin-right: 0;
     }
     .card1 .card-header {
-        padding: 4rem 4rem;
+        padding: 3rem 1rem;
     }
     .package-area .card .card-body{
-        padding-left: 4rem;
+        padding-left: 2rem;
         padding-right: 2rem;
+        padding-top: 1.6rem;
     }
     .card2{
         width: 100%;
-        transform: scale(1);
     }
     .card2 .card-header{
-        padding-left: 3rem;
+        padding-left: 2rem;
         padding-bottom: 3.6rem;
     }
     .card2 .card-header img{
-        width:11rem;
+        width:10rem;
     }
     .card2 .package-price{
-        padding-left: 2.5rem;
+        padding-left: 0.5rem;
     }
     .card3{
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        margin-top: 2rem;
     }
     .card3 .card-header{
         padding-left: 1rem;
+        padding-bottom: 26px;
     }
     .card3 .card-header img{
         width: 12rem;
     }
     .package-price{
-        padding-left: 3rem;
+        padding-left: 2rem;
     }
     .package-price h3 {
-        font-size:2.5rem;
+        font-size:2rem;
+    }
+    .package-price h4{
+        font-size:1rem;
     }
     .package-area h2{
         margin-bottom: 4rem;

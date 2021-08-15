@@ -2944,7 +2944,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   background: transparent;
   border: 0;
 }
-.package-area .col-md-4{
+.package-area .col-xl-4{
   padding: 0;
 }
 .card1{
