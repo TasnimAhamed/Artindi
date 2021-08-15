@@ -82,6 +82,9 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
 }
+a{
+  text-decoration: none;
+}
 
 @media (max-width: 991px) {
   html {
@@ -1407,6 +1410,7 @@ input[type=reset]:focus {
   transition: all 0.25s ease;
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .btn.btn-link {
@@ -2864,7 +2868,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
 /*Logo Design Package*/
 
 .package-area{
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 .package-area h2{
   margin-bottom: 6rem;
@@ -2883,7 +2887,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   background-color: #fff;
 }
 .card1 .card-header img{
-  width: 160px;
+  width: 10rem;
 }
 .card2 .card-header{
   padding-top: 0;
@@ -2901,18 +2905,18 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
 }
 .package-price h4{
   text-transform: uppercase;
-  font-size:20px;
+  font-size:1.25rem;
   color: #000000;
   font-family: 'rns_sanzblack';
   margin-bottom: 0;
 }
 .package-price p{
-  font-size:18px;
+  font-size:1.2rem;
   color: #151727;
   margin-bottom: 1.5rem;
 }
 .package-price h3{
-  font-size:49px;
+  font-size:3rem;
   color: #000000;
   font-family: 'rns_sanzbold';
 }
@@ -2921,9 +2925,8 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   color:#B3B8BD;
 }
 .package-area .card .card-body{
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 60px;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 .package-details > div{
   margin-bottom: 20px;
@@ -2932,7 +2935,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   margin-right: 10px;
 }
 .package-details span{
-  font-size:17px;
+  font-size:1.2rem;
   color: #52575D;
   font-family: 'rns_sanzmedium';
 }
@@ -2957,7 +2960,6 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   box-shadow: 0px 3px 36px #00000029;
 }
 .card2 .card-body{
-  padding-bottom: 79px;
   padding-top: 30px;
 }
 
