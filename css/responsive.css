@@ -1,0 +1,298 @@
+@media (min-width: 320px) and (max-width:575px) {
+
+    /*Breadcrumb Area*/
+    .service-details-breadcrumb {
+         padding-top: 0px; 
+    }
+    .breadcrumb{
+        padding-left: 0;
+    }
+    .floting-blk{
+        display: none;
+    }
+
+    /*Breadcrumb Area*/
+
+    /*Service Banner Start*/
+    .service-left h1{
+        margin-top: 1rem;
+    }
+    .service-text{
+        width: 95%;
+    }
+    .hero-section .service-right{
+        padding: 0;
+    }
+    .service-right form{
+        padding: 1.5rem 1rem;
+    }
+    .service-details-img-2{
+        margin-top: 3rem;
+    }
+    .recent-project-text p{
+        width: 100%;
+    }
+    .project-card .content{
+        left: 20px;
+        bottom: 20px;
+    }
+    .project-card .content-hover{
+        padding:1rem;
+        border-radius: 8px;
+    }
+    .project-card .content-hover p{
+        width: 100%;
+    }
+    .project-card .content-hover button {
+        width: 16rem;
+        height: 3rem;
+        font-size: 16px;
+    }
+    .recent-project-text h2,
+    .feature-area h2{
+        font-size:2rem;
+    }
+
+    .feature-box{
+        height: 280px;
+        padding:2rem;
+    }
+    .build-website{
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+    .build-website-content h3{
+        font-size:2rem;
+    }
+    .build-website form{
+        margin-top: 2rem;
+    }
+    /*Service Banner End*/
+
+
+}
+@media (min-width: 576px) and (max-width:767px) {
+
+    /*Breadcrumb Area*/
+    .service-details-breadcrumb {
+         padding-top: 0px; 
+    }
+    .breadcrumb{
+        padding-left: 0;
+    }
+    .floting-blk{
+        display: none;
+    }
+
+    /*Breadcrumb Area*/
+
+    /*Service Banner Start*/
+    .service-left h1{
+        margin-top: 1rem;
+    }
+    .service-text{
+        width: 95%;
+    }
+    .hero-section .service-right{
+        padding: 0;
+    }
+    .service-right form{
+        padding: 1.5rem 1rem;
+    }
+    .service-details-img-2{
+        margin-top: 5rem;
+    }
+    .recent-project-text p{
+        width: 100%;
+    }
+    .project-card .content{
+        left: 20px;
+        bottom: 20px;
+    }
+    .project-card .content-hover{
+        padding:1.5rem;
+        border-radius: 1rem;
+    }
+    .project-card .content-hover p{
+        width: 70%;
+    }
+    .project-card .content-hover button {
+        width: 16rem;
+        height: 3rem;
+        font-size: 16px;
+    }
+    .recent-project-text h2,
+    .feature-area h2{
+        font-size:2rem;
+    }
+
+    .feature-box{
+        height: 260px;
+        padding:2rem;
+    }
+    .build-website{
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+    .build-website-content h3{
+        font-size:2rem;
+    }
+    .build-website form{
+        margin-top: 4rem;
+    }
+    #footer {
+        margin-top: 4rem;
+    }
+    /*Service Banner End*/
+
+
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+
+    /*Service Banner*/
+    .hero-section .service-right{
+        padding: 0;
+    }
+    .service-right form{
+        padding: 2rem;
+    }
+    .service-info-text{
+        padding-top: 0;
+    }
+    .project-card .content-hover{
+        border-radius: 0.75rem;
+    }
+    .feature-box{
+        height:300px;
+    }
+    .recent-project-text h2,
+    .feature-area h2{
+        font-size:2.5rem;
+    }
+    .build-website-content h3{
+        font-size:1.8rem;
+        line-height: 3rem;
+    }
+
+}
+@media (min-width: 1200px) and (max-width:1399px){
+
+    /*Service Banner*/
+    .hero-section .service-right{
+        padding-left: 0;
+    }
+    .hero-section .banner-left{
+        padding-right: 0;
+    }
+    .service-right form{
+        padding: 2rem;
+    }
+    .service-info-text{
+        padding-top: 0;
+    }
+    .project-card .content-hover{
+        border-radius: 0.75rem;
+    }
+    .feature-box{
+        height:280px;
+        padding:1.5rem;
+    }
+    .recent-project-text h2,
+    .feature-area h2{
+        font-size:2.5rem;
+    }
+    .build-website-content h3{
+        font-size:1.8rem;
+        line-height: 3rem;
+    }
+    .project-card .content-hover p{
+        width: 85%;
+    }
+    .project-card .content-hover button {
+        width: 16rem;
+        height: 3.2rem;
+        font-size: 16px;
+    }
+
+}
+@media (min-width: 1400px) and (max-width:1599px){
+
+    /*Service Banner*/
+    .hero-section .service-right{
+        padding-left: 0;
+    }
+    .hero-section .banner-left{
+        padding-right: 0;
+    }
+    .service-right form{
+        padding: 2rem;
+    }
+    .service-info-text{
+        padding-top: 0;
+    }
+    .project-card .content-hover{
+        border-radius: 0.75rem;
+    }
+    .feature-box{
+        height:280px;
+        padding:1.5rem;
+    }
+    .recent-project-text h2,
+    .feature-area h2{
+        font-size:2.5rem;
+    }
+    .build-website-content h3{
+        font-size:1.8rem;
+        line-height: 3rem;
+    }
+    .project-card .content-hover p{
+        width: 85%;
+    }
+    .project-card .content-hover button {
+        width: 16rem;
+        height: 3.2rem;
+        font-size: 16px;
+    }
+
+}
+@media (min-width: 1600px) and (max-width:1799px){
+
+    /*Service Banner*/
+    .hero-section .service-right{
+        padding-left: 0;
+    }
+    .hero-section .banner-left{
+        padding-right: 0;
+    }
+    .service-right form{
+        padding: 2rem;
+    }
+    .service-info-text{
+        padding-top: 0;
+    }
+    .project-card .content-hover{
+        border-radius: 0.75rem;
+    }
+    .feature-box{
+        height:280px;
+        padding:1.5rem;
+    }
+    .recent-project-text h2,
+    .feature-area h2{
+        font-size:2.5rem;
+    }
+    .build-website-content h3{
+        font-size:1.8rem;
+        line-height: 3rem;
+    }
+    .project-card .content-hover p{
+        width: 85%;
+    }
+    .project-card .content-hover button {
+        width: 16rem;
+        height: 3.2rem;
+        font-size: 16px;
+    }
+
+}
