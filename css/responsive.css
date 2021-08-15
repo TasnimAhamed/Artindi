@@ -321,6 +321,10 @@
         padding:1.5rem;
         border-radius: 0.5rem;
     }
+    .package-area .col-xl-4{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .project-card .content h3,
     .project-card .content-hover h1{
         font-size:1.5rem;
