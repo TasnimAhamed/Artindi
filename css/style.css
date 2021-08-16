@@ -1727,20 +1727,10 @@ header .navbar .navbar-collapse {
           justify-content: flex-end;
 }
 
-@media (max-width: 767px) {
-  header .navbar .navbar-collapse {
-    position: fixed;
-    top: 6rem;
-    background: #0E0F1A;
-    z-index: 9;
-    left: 0;
-    right: 0;
-  }
-}
 
 @media (max-width: 767px) {
   header .navbar .navbar-collapse .navbar-nav {
-    padding: 0 1.5rem 2rem;
+    padding: 1rem 0.5rem 2rem;
   }
 }
 
@@ -3071,6 +3061,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   font-weight:700;
   color: #F1BC1E;
   background-color:#151727;
+  border-radius: .25rem;
 }
 .box .content img {
   width: 160px;
@@ -3130,8 +3121,12 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   height: 6rem !important;
   resize: none;
 }
+
 .build-website form .custom-select{
-  background: #151727;
+  background-color: #151727;
+  background-image:url('./../images/down-arrow.svg') no-repeat right .75rem center/18px 20px;
+  position: relative;
+  transition:0.1s ease-in-out;
 }
 .build-website-content h3{
   font-size:2.5rem;
@@ -3151,3 +3146,171 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
 /*Built Website Section End*/
 
 /*Service Details Page End*/
+
+
+/*Contact Page Start*/
+
+  /*Contact Banner*/
+
+  .hero-section.contact-section{
+    margin-top: 0;
+    padding-bottom: 5rem;
+  }
+  .contact-text{
+    width: 78%;
+  }
+  .contact-text p:first-child,
+  .contact-text p:nth-child(3){
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    margin-bottom: 0;
+  }
+  .contact-text p:nth-child(2),
+  .contact-text p:last-child{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    margin-top: 0.2rem;
+    font-family: 'rns_sanzsemibold';
+  }
+
+  .hero-section .contact-right {
+    padding-right: 2rem;
+    padding-left: 5rem;
+  }
+  .contact-right form{
+    background:#151727;
+    border: 1px solid #6C6F8A;
+    border-radius: 15px;
+    padding: 3rem;
+  }
+  .contact-right form p{
+    margin-bottom: 2rem;
+    font-size:1.5rem;
+    font-weight: 500;
+  }
+  .contact-right form .form-group textarea.form-control{
+    height:7.5rem;
+    resize: none;
+  } 
+
+
+  /*Contact Banner*/
+
+
+/*Contact Page End*/
+
+
+/*Service Page Start*/
+
+/*Services Button Group*/
+.services-button-group{
+  padding-top: 7rem;
+}
+.design-service-btn a,
+.code-service-btn a,
+.marketing-service-btn a{
+  background-color: #151727;
+  border:1px solid #6C6F8A;
+  color: #6C6F8A;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .02rem;
+  font-family: "rns_sanzbold";
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  padding: 0 2rem;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+}
+.design-service-btn a:hover,
+.code-service-btn a:hover,
+.marketing-service-btn a:hover{
+  color: #6C6F8A;
+}
+.design-service-btn a:focus,
+.code-service-btn a:focus,
+.marketing-service-btn a:focus{
+  box-shadow: none;
+}
+/*Services Button Group*/
+
+/*Design Service Area*/
+.design-services,
+.marketing-services,
+.code-services{
+  padding-top: 7rem;
+}
+
+.design-services .design-service-img,
+.marketing-services .design-service-img{
+  text-align: left;
+}
+.code-services .design-service-img{
+  text-align: right;
+}
+.design-services .design-service-img img,
+.marketing-services .design-service-img img,
+.code-services .design-service-img img{
+  width: 92%;
+}
+
+
+.design-service-txt > p{
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 2rem;
+
+}
+.design-service-txt ul.service-list{
+  list-style-type: none;
+}
+.design-service-txt ul.service-list li{
+  margin-bottom: 0.8rem;
+}
+.design-service-txt ul.service-list li a{
+  display: flex;
+  align-items: center;
+}
+.design-service-txt ul.service-list li a img{
+  margin-right: 1.5rem;
+  visibility: hidden;  
+  transition: all 0.2s ease-in-out;
+}
+.design-service-txt ul.service-list li.active a img{
+  visibility: visible;  
+}
+.design-service-txt ul.service-list li a p{
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+.design-service-txt ul.service-list li:hover a img{
+  visibility: visible;
+}
+.design-service-txt ul.service-list li:hover a p{
+  color: #F1BC1E;
+  text-decoration: underline;
+}
+.design-service-txt ul.service-list li.active a p{
+  color: #F1BC1E;
+  text-decoration: underline;
+}
+.design-service-txt button{
+  margin-top: 2rem;
+  width: 80%!important;
+}
+/*Design Service Area*/
+
+
+
+/*Service Page End*/

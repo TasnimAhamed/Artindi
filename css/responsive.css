@@ -138,6 +138,41 @@
     }
     /*Package Area*/
 
+
+    /*Contact Page Start*/
+    .contact-left h1{
+        margin-top: 2.5rem;
+        font-size: 3.5rem;
+    }
+    .contact-text{
+        width: 95%;
+    }
+    .hero-section .contact-right{
+        padding: 0;
+    }
+    .contact-right form{
+        padding: 1.5rem 1rem;
+    }
+    /*Contact Page Start*/
+
+
+    /*Services Page Start*/
+    .design-service-btn,
+    .code-service-btn{
+        margin-bottom: 1.5rem;
+    }
+    .design-services, .marketing-services, .code-services{
+        padding-top: 5rem;
+    }
+    .design-services .design-service-img, .marketing-services .design-service-img,
+    .code-services .design-service-img{
+        margin-bottom: 4rem;
+    }
+    .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+        width: 100%;
+    }
+    /*Services Page End*/
+
 }
 @media (min-width: 576px) and (max-width:767px) {
 
@@ -273,6 +308,40 @@
     /*Package Area*/
 
 
+    /*Contact Page start*/
+    .contact-left h1{
+        margin-top: 1rem;
+    }
+    .contact-text{
+        width: 95%;
+    }
+    .hero-section .contact-right{
+        padding: 0;
+    }
+    .contact-right form{
+        padding: 1.5rem 1rem;
+    }
+    /*Contact Page start*/
+
+     /*Services Page Start*/
+
+     .design-service-btn,
+     .code-service-btn{
+         margin-bottom: 3rem;
+     }
+     .design-services, .marketing-services, .code-services{
+         padding-top: 5rem;
+     }
+     .design-services .design-service-img, .marketing-services .design-service-img,
+     .code-services .design-service-img{
+         margin-bottom: 5rem;
+     }
+     .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+         width: 100%;
+     }
+     /*Services Page End*/
+
+
 
 }
 @media (min-width: 768px) and (max-width:991px) {
@@ -305,7 +374,8 @@
         padding: 0;
     }
     .service-right form{
-        padding: 1.5rem 1rem;
+        padding: 3.5rem;
+        margin-top: 2rem;
     }
     .service-info-img img{
         margin-top: 5rem;
@@ -407,6 +477,55 @@
     }
     /*Package Area*/
 
+    /*Contact Page Start*/
+    .contact-left h1{
+        margin-top: 1rem;
+        font-size:2.5rem;
+    }
+    .contact-text{
+        width: 100%;
+    }
+    .contact-info-text{
+        padding-top: 0;
+    }
+    .hero-section .contact-right{
+        padding: 0;
+    }
+    .contact-right form{
+        padding: 1.5rem 1rem;
+    }
+    /*Contact Page Start*/
+
+     /*Services Page Start*/
+
+     .design-service-btn,
+     .code-service-btn{
+         margin-bottom: 3rem;
+     }
+     .design-services, .marketing-services, .code-services{
+         padding-top: 5rem;
+     }
+     .design-services .design-service-img, .marketing-services .design-service-img,
+     .code-services .design-service-img{
+         margin-bottom: 5rem;
+     }
+     .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+         width: 100%;
+     }
+     .design-service-btn a, .code-service-btn a, .marketing-service-btn a{
+         padding: 0 1rem;
+     }
+     .design-service-txt button{
+         width: 60%!important;
+     }
+     .multiselect-option.dropdown-item span label{
+         white-space: pre-wrap;
+     }
+     .multiselect-option.dropdown-item span{
+         align-items: flex-start;
+     }
+     /*Services Page End*/
+
 
 }
 @media (min-width: 992px) and (max-width:1199px){
@@ -500,6 +619,49 @@
         margin-bottom: 4rem;
     }
     /*Package Area*/
+
+    /*Contact Page Start*/
+    .hero-section .contact-right{
+        padding: 0;
+    }
+    .contact-left h1{
+        font-size:3rem;
+    }
+    .contact-right form{
+        padding: 2rem;
+    }
+    /*Contact Page End*/
+
+    /*Service Page*/
+    .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+        width: 100%;
+    }
+    .design-service-txt h2{
+        font-size:2.3rem;
+        margin-bottom: 1rem;
+    }
+    .design-service-txt > p{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .design-service-txt ul.service-list li a img{
+        margin-right: 1rem;
+    }
+    .design-service-txt ul.service-list li a p{
+        font-size:1rem;
+    }
+    .design-service-txt ul.service-list li{
+        margin-bottom: 0.6rem;
+    }
+    .design-service-txt button{
+        margin-top: 0.8rem;
+        width: 100%;
+    }
+    .design-service-btn a, .code-service-btn a, .marketing-service-btn a{
+        font-size: 1rem;
+        padding: 0 .5rem;
+    }
+    /*Service Page*/
 
 }
 @media (min-width: 1200px) and (max-width:1399px){
@@ -595,6 +757,49 @@
     }
     /*Package Area*/
 
+    /*Contact Page Start*/
+    .hero-section .contact-right{
+        padding-left: 0;
+    }
+    .hero-section .contact-left{
+        padding-right: 0;
+    }
+    .contact-right form{
+        padding: 2rem;
+    }
+    /*Contact Page End*/
+
+     /*Service Page*/
+     .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+        width: 100%;
+    }
+    .design-service-txt h2{
+        font-size:2.5rem;
+        margin-bottom: 1rem;
+    }
+    .design-service-txt > p{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .design-service-txt ul.service-list li a img{
+        margin-right: 1rem;
+    }
+    .design-service-txt ul.service-list li a p{
+        font-size:1rem;
+    }
+    .design-service-txt ul.service-list li{
+        margin-bottom: 0.6rem;
+    }
+    .design-service-txt button{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .design-service-btn a, .code-service-btn a, .marketing-service-btn a{
+        font-size:1rem;
+        padding: 0 1rem;;
+    }
+    /*Service Page*/
+
 }
 @media (min-width: 1400px) and (max-width:1599px){
 
@@ -676,6 +881,50 @@
         padding-top: 7rem;
     }
 
+    /*Contact Page Start*/
+    .hero-section .contact-right{
+        padding-left: 0;
+    }
+    .hero-section .contact-left{
+        padding-right: 0;
+    }
+    .contact-right form{
+        padding: 2rem;
+    }
+    /*Contact Page End*/
+
+
+    /*Service Page*/
+    .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+        width: 100%;
+    }
+    .design-service-txt h2{
+        font-size:3.5rem;
+        margin-bottom: 1rem;
+    }
+    .design-service-txt > p{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    .design-service-txt ul.service-list li a img{
+        margin-right: 1rem;
+    }
+    .design-service-txt ul.service-list li a p{
+        font-size:1.1rem;
+    }
+    .design-service-txt ul.service-list li{
+        margin-bottom: 0.8rem;
+    }
+    .design-service-txt button{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .design-service-btn a, .code-service-btn a, .marketing-service-btn a{
+        font-size:1rem;
+        padding: 0 1rem;;
+    }
+    /*Service Page*/
+
 
 }
 @media (min-width: 1600px) and (max-width:1799px){
@@ -719,5 +968,23 @@
     .card3 {
          margin-left: 0px;
     }
+
+     /*Contact Page Start*/
+     .hero-section .contact-right{
+        padding-left: 0;
+    }
+    .hero-section .contact-left{
+        padding-right: 0;
+    }
+    .contact-right form{
+        padding: 2rem;
+    }
+    /*Contact Page End*/
+
+    /*Service Page Start*/
+    .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+        width: 100%;
+    }
+    /*Service Page Start*/
 
 }

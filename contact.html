@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Artindi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- included css start -->
+    <link rel="stylesheet" href="css/bootstrap-multiselect.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- included css end -->
+</head>
+
+<body>
+    <!--page loader start -->
+    <div id="page-loader">
+        <div class="loader"></div>
+    </div>
+    <!-- header start -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.svg" alt="img" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- header end -->
+
+    <!-- floting block start -->
+
+    <div id="float-blk" class="floting-blk">
+        <div class="float-header">
+            <button onclick="togglefloat()" class="x-btn">
+
+            </button>
+        </div>
+        <div class="d-flex">
+            <div onclick="togglefloat()" class="yellow-blk">
+                <figure>
+                    <img src="images/profilePic2.png" alt="img" class="img-fluid" />
+                </figure>
+
+                <h6>Need Help?</h6>
+            </div>
+            <div class="floting-info">
+                <h6>We're here for you.</h6>
+                <p class="info"><i class="icon ph-icon"></i> <button>+91 9876543210</button></p>
+                <p class="info"><i class="icon chat-icon"></i> <button>Click to chat</button></p>
+                <p class="info"><i class="icon cal-icon"></i> <button>Schedule a Meeting</button></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- floting block end -->
+
+    <!--Breadcrumb Area-->
+    <section class="service-details-breadcrumb">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                </ol>
+              </nav>
+        </div>
+    </section>
+    <!--Breadcrumb Area-->
+
+    <!-- banner start -->
+    <section class="hero-section contact-section">
+        <div class="container">
+
+            <!--Banner Area-->
+            <div class="row align-items-center">
+                <div class="col-md-5 col-lg-6 col-xl-7">
+                    <div class="banner-left contact-left">
+                        <h1>Contact Us</h1>
+                        </h1>
+                        <div class="contact-text">
+                            <p class="white-color">Phone number</p>
+                            <p class="secondary-color">+1 934-678-3453</p>
+                            <p class="white-color">Email Address</p>
+                            <p class="secondary-color">contact@artindi.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-7 col-lg-6 col-xl-5">
+                    <div class="contact-right">
+                        <form>
+                            <p class="secondary-color">Improve results with a better website today</p>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Full Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group multiselect-service">
+                                        <select class="form-control" id="service-select" multiple="multiple">
+                                            <option value="multiselect-all"> Select all</option>
+                                            <option value="ui / ux (web & app Design)">UI / UX (Web & App Design)</option>
+                                            <option value="branding / graphic design">Branding / Graphic Design</option>
+                                            <option value="code / development">Code / Development</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="How can we help you?"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+
+                                    <button class="btn btn-primary btn-block hvr-sweep-to-bottom">
+                                        Submit
+                                    </button>
+
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--Banner Area-->
+        </div>
+    </section>
+    <!-- banner end -->
+
+   
+    
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row cust-row">
+                <div class="col-md-4 cust-col">
+                    <figure>
+                        <img src="images/logo.svg" alt="img" />
+                    </figure>
+
+                    <div class="abt-blk">
+                        <h6 class="mb-2 mt-4">OUR GUARANTEE</h6>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College
+                            in Virginia.</p>
+                    </div>
+
+                    <ul class="social-media">
+                        <li>
+                            <a class="fb" href="javascript://">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="twt" href="javascript://">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="yt" href="javascript://">
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="col-md-2 cust-col">
+                    <h5 class="f-heading">Company</h5>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="javascript://">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                About Us
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                Contact Us
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-2 cust-col">
+                    <h5 class="f-heading">Quick LInks</h5>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="javascript://">
+                                Design
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                Development
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                SEO
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 cust-col">
+                    <h5 class="f-heading">More Info</h5>
+                    <p class="address mb-2">Vernon, CA 90051 US</p>
+                    <p class="timings">Monday – Saturday: 7:00 am to 7:00 pm PST</p>
+                </div>
+                <div class="col-12">
+                    <div class="copyright">
+                        <p> &copy; Copyright 2021</p>
+                        <p>All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- included scripts start -->
+    <script src=" js/jquery.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/aos.js "></script>
+    <script src="js/slick.js "></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/bootstrap-multiselect.min.js"></script>
+
+    <script src="js/functions.js "></script>
+    <!-- included scripts end -->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#service-select').multiselect({
+                includeSelectAllOption: true
+            });
+            $('#service-select2').multiselect({
+                includeSelectAllOption: true
+            });
+        });
+    </script>
+</body>
+
+</html>
