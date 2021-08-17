@@ -69,6 +69,9 @@ $(document).ready(function() {
 
     });
 
+
+    
+
     //bootstrap select js start 
     // $('.bs-select').selectpicker();
     //bootstrap select js end

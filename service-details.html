@@ -22,38 +22,40 @@
     </div>
     <!-- header start -->
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.svg" alt="img" />
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Our Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Company</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
+        <div class="main-nav">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.svg" alt="img" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Our Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Company</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
 
     </header>
     <!-- header end -->
@@ -105,7 +107,7 @@
 
             <!--Banner Area-->
             <div class="row align-items-center">
-                <div class="col-md-7">
+                <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-7">
                     <div class="banner-left service-left">
                         <h1>Logo Design</h1>
                         </h1>
@@ -117,7 +119,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-10 offset-md-1  offset-lg-0 col-lg-5">
                     <div class="service-right">
                         <form>
                             <p class="secondary-color">Improve results with a better website today</p>
@@ -191,13 +193,13 @@
     <section class="service-details-area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-6">
+                <div class="col-lg-5 col-md-6 order-2 order-md-1">
                     <div class="service-info-text">
                         <p class="white-color">We are an award-winning USA digital agency, specialized in digital creative experiences.</p>
                         <p class="secondary-color">Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology. Thanks to a team of young, dynamic and motivated talents, for over 15 years.</p>
                     </div>
                 </div>
-                <div class="col-lg-5 offset-lg-2 col-md-5 offset-md-1">
+                <div class="col-lg-5 offset-lg-2 col-md-5 offset-md-1 order-1 order-md-2">
                     <div class="service-info-img">
                         <img src="./images/mockup.svg" alt="img" class="img-fluid service-details-img-2">
                     </div>
@@ -682,15 +684,28 @@
     <script src="js/functions.js "></script>
     <!-- included scripts end -->
 
-    <script type="text/javascript">
-        $(document).ready(function() {
+    <script>
+        $(document).ready(function(){
+
+            $(window).scroll(function(){
+                var navFixed = $(window).scrollTop();
+                if(navFixed > 200){
+                    $(".main-nav").addClass("fixed-top fadeInDown");
+                }else{
+                    $(".main-nav").removeClass("fixed-top fadeInDown");
+                }
+            });
+
             $('#service-select').multiselect({
                 includeSelectAllOption: true
             });
+            
             $('#service-select2').multiselect({
                 includeSelectAllOption: true
             });
-        });
+
+
+        })
     </script>
 </body>
 

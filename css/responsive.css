@@ -2,6 +2,10 @@
     header{
         padding: 2rem 1rem;;
     }
+    .main-nav.fixed-top{
+        background: #0e0f1af2;
+        padding: 1.5rem 1rem;
+    }
     /*Breadcrumb Area*/
     .service-details-breadcrumb {
          padding-top: 0px; 
@@ -48,11 +52,15 @@
         padding:1rem;
         border-radius: 8px;
     }
+    .project-card .content-hover h1{
+        font-size:1.6rem;
+        margin-bottom: 0.6rem;
+    }
     .project-card .content-hover p{
         width: 100%;
     }
     .project-card .content-hover button {
-        width: 16rem;
+        width: 15rem;
         height: 3rem;
         font-size: 16px;
     }
@@ -172,6 +180,49 @@
         width: 100%;
     }
     /*Services Page End*/
+
+    /*Service Main Page*/
+
+    .design-services-area{
+        padding-top: 7rem;
+    }
+    .design-service-area-text{
+        padding-bottom: 3rem;
+    }
+    .design-service-area-text h2{
+        font-size:2.5rem;
+    }
+    .design-services-content{
+        left: 1.2rem;
+        bottom: 1.2rem;
+    }
+    .design-services-content h3{
+        font-size: 2rem;
+        margin-bottom: 0.8rem;
+    }
+    .design-services-content p{
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: 0.8rem;
+    }
+    .design-services-content a{
+        width: 50%!important;
+        margin-top: 0.8rem;
+    }
+    .design-service-area-text .list-group a img{
+        visibility: visible;
+    }
+    /*Service Main Page*/
+
+    /*Work Page Start*/
+    .mix_controller button{
+        width: 100%;
+    }
+    .mix_controller button:not(:last-child){
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+    /*Work Page End*/
 
 }
 @media (min-width: 576px) and (max-width:767px) {
@@ -342,6 +393,48 @@
      /*Services Page End*/
 
 
+    /*Service Main Page*/
+
+    .design-services-area{
+        padding-top: 8rem;
+    }
+    .design-service-area-text{
+        padding-bottom: 3rem;
+    }
+    
+    .design-services-content{
+        left: 2rem;
+        bottom: 2rem;
+    }
+
+    .design-services-content p{
+        font-size: 1rem;
+        width: 90%;
+        margin-bottom: 0.8rem;
+    }
+    .design-service-area-text .list-group a img{
+        visibility: visible;
+    }
+    /*Service Main Page*/
+
+     /*Work Page Start*/
+     .mix_controller button{
+        width: 40%;
+    }
+     .mix_controller button:first-child{
+         margin-right: 5%;
+        margin-bottom: 2rem;
+    } 
+    .mix_controller button:nth-child(2){
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .mix_controller button:nth-child(3){
+        margin-right: 5%;
+    }
+    /*Work Page End*/
+
+
 
 }
 @media (min-width: 768px) and (max-width:991px) {
@@ -397,13 +490,15 @@
     }
     .project-card .content h3,
     .project-card .content-hover h1{
-        font-size:1.5rem;
+        font-size:1.3rem;
+        margin-bottom: 0.6rem;
     }
     .project-card .content-hover p{
         width: 90%;
+        font-size:1rem;
     }
     .project-card .content-hover button {
-        width: 15rem;
+        width: 12rem;
         height: 3rem;
         font-size: 16px;
     }
@@ -497,7 +592,9 @@
     /*Contact Page Start*/
 
      /*Services Page Start*/
-
+    .service-details-breadcrumb{
+        padding-bottom: 2rem;
+    }
      .design-service-btn,
      .code-service-btn{
          margin-bottom: 3rem;
@@ -525,6 +622,63 @@
          align-items: flex-start;
      }
      /*Services Page End*/
+
+     /*Service Main Page*/
+
+    .design-services-area{
+        padding-top: 8rem;
+    }
+    
+    .design-service-area-text h2{
+        font-size: 2.6rem;
+    }
+    .design-service-area-text .list-group a img{
+        margin-right: 0.6rem;
+        width: 16px;
+    }
+    .design-service-area-text .list-group a p{
+        font-size: 1.2rem;
+    }
+    .design-service-area-text.sticky-top{
+        top: 7rem!important;
+    }
+    .design-services-content{
+        left: 1.5rem;
+        bottom: 1.5rem;
+    }
+    .design-services-content p{
+        font-size: 1rem;
+        width: 90%;
+        margin-bottom: 0.8rem;
+    }
+
+    .design-services-content h3{
+        font-size:2rem;
+        margin-bottom: 0.8rem;
+    }
+    .design-services-content a{
+        width: 45%!important;
+    }
+
+    /*Service Main Page*/
+
+
+    /*Work Page Start*/
+    .mix_controller button{
+        width: 40%;
+    }
+     .mix_controller button:first-child{
+         margin-right: 5%;
+        margin-bottom: 2rem;
+    } 
+    .mix_controller button:nth-child(2){
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .mix_controller button:nth-child(3){
+        margin-right: 5%;
+    }
+    /*Work Page End*/
 
 
 }
@@ -557,8 +711,12 @@
     .project-card .content-hover{
         padding: 1.5rem;
     }
+    .project-card .content-hover h1{
+        font-size:1.5rem;
+        margin-bottom: 0.6rem;
+    }
     .project-card .content-hover button{
-        width: 15rem;
+        width: 13rem;
         height:2.5rem;
     }
     .project-card .content-hover p{
@@ -663,6 +821,63 @@
     }
     /*Service Page*/
 
+
+    /*Service Main Page*/
+
+    .design-services-area{
+        padding-top: 8rem;
+    }
+    
+    .design-service-area-text h2{
+        font-size: 3rem;
+    }
+    .design-service-area-text .list-group a img{
+        margin-right: 0.6rem;
+        width: 16px;
+    }
+    .design-service-area-text .list-group a p{
+        font-size: 1.2rem;
+    }
+    .design-service-area-text.sticky-top{
+        top: 7rem!important;
+    }
+    .design-services-content{
+        left: 2rem;
+        bottom: 2rem;
+    }
+    .design-services-content p{
+        font-size: 1rem;
+        width: 90%;
+        margin-bottom: 0.8rem;
+    }
+
+    .design-services-content h3{
+        font-size:2rem;
+        margin-bottom: 0.8rem;
+    }
+    .design-services-content a{
+        width: 40%!important;
+    }
+
+    /*Service Main Page*/
+
+    /*Work Page Start*/
+    .mix_controller button{
+        width: 40%;
+    }
+     .mix_controller button:first-child{
+         margin-right: 5%;
+        margin-bottom: 2rem;
+    } 
+    .mix_controller button:nth-child(2){
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .mix_controller button:nth-child(3){
+        margin-right: 5%;
+    }
+    /*Work Page End*/
+
 }
 @media (min-width: 1200px) and (max-width:1399px){
 
@@ -681,6 +896,11 @@
     }
     .project-card .content-hover{
         border-radius: 0.75rem;
+        padding: 1.5rem 1.5rem;
+    }
+    .project-card .content-hover h1{
+        font-size:1.5rem;
+        margin-bottom: 0.6rem;
     }
     .feature-box{
         height:280px;
@@ -698,7 +918,7 @@
         width: 85%;
     }
     .project-card .content-hover button {
-        width: 16rem;
+        width: 14rem;
         height: 3.2rem;
         font-size: 16px;
     }
@@ -800,6 +1020,54 @@
     }
     /*Service Page*/
 
+
+     /*Service Main Page*/
+
+     .design-services-area{
+        padding-top: 8rem;
+    }
+    
+    .design-service-area-text h2{
+        font-size: 3rem;
+    }
+    .design-service-area-text .list-group a img{
+        margin-right: 0.6rem;
+        width: 16px;
+    }
+    .design-service-area-text .list-group a p{
+        font-size: 1.2rem;
+    }
+    .design-service-area-text.sticky-top{
+        top: 7rem!important;
+    }
+    .design-services-content{
+        left: 2rem;
+        bottom: 2rem;
+    }
+    .design-services-content p{
+        font-size: 1rem;
+        width: 90%;
+        margin-bottom: 0.8rem;
+    }
+
+    .design-services-content h3{
+        font-size:2rem;
+        margin-bottom: 0.8rem;
+    }
+    .design-services-content a{
+        width: 40%!important;
+    }
+
+    /*Service Main Page*/
+
+    /*Work Page Start*/
+    .mix_controller button {
+        font-size: 0.9rem;        
+        padding: 0 0rem;
+        width: 23%;
+    }
+    /*Work Page End*/
+
 }
 @media (min-width: 1400px) and (max-width:1599px){
 
@@ -818,6 +1086,11 @@
     }
     .project-card .content-hover{
         border-radius: 0.75rem;
+        padding: 2rem 2rem;
+    }
+    .project-card .content-hover h1{
+        font-size: 1.6rem;
+        margin-bottom: 0.7rem;
     }
     .feature-box{
         height:280px;
@@ -835,9 +1108,9 @@
         width: 85%;
     }
     .project-card .content-hover button {
-        width: 16rem;
+        width: 14rem;
         height: 3.2rem;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .card1{
@@ -926,6 +1199,54 @@
     /*Service Page*/
 
 
+     /*Service Main Page*/
+
+     .design-services-area{
+        padding-top: 8rem;
+    }
+    
+    .design-service-area-text h2{
+        font-size: 3rem;
+    }
+    .design-service-area-text .list-group a img{
+        margin-right: 0.6rem;
+        width: 16px;
+    }
+    .design-service-area-text .list-group a p{
+        font-size: 1.2rem;
+    }
+    .design-service-area-text.sticky-top{
+        top: 7rem!important;
+    }
+    .design-services-content{
+        left: 2rem;
+        bottom: 2rem;
+    }
+    .design-services-content p{
+        font-size: 1rem;
+        width: 80%;
+        margin-bottom: 0.8rem;
+    }
+
+    .design-services-content h3{
+        font-size:2rem;
+        margin-bottom: 0.8rem;
+    }
+    .design-services-content a{
+        width: 40%!important;
+    }
+
+    /*Service Main Page*/
+
+    /*Work Page Start*/
+    .mix_controller button {
+        font-size: 1rem;        
+        padding: 0 1rem;
+        width: 23%;
+    }
+    /*Work Page End*/
+
+
 }
 @media (min-width: 1600px) and (max-width:1799px){
 
@@ -982,9 +1303,57 @@
     /*Contact Page End*/
 
     /*Service Page Start*/
-    .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+    .design-services .design-service-img img, 
+    .marketing-services .design-service-img img, 
+    .code-services .design-service-img img{
         width: 100%;
     }
     /*Service Page Start*/
+
+
+    /*Service Main Page*/
+
+    .design-services-area{
+        padding-top: 8rem;
+    }
+    
+    .design-service-area-text h2{
+        font-size: 3rem;
+    }
+    .design-service-area-text .list-group a img{
+        margin-right: 0.6rem;
+        width: 16px;
+    }
+    .design-service-area-text .list-group a p{
+        font-size: 1.2rem;
+    }
+    .design-service-area-text.sticky-top{
+        top: 7rem!important;
+    }
+    
+    .design-services-content p{
+        font-size: 1rem;
+        width: 80%;
+        margin-bottom: 0.8rem;
+    }
+
+    .design-services-content h3{
+        font-size:2rem;
+        margin-bottom: 0.8rem;
+    }
+    .design-services-content a{
+        width: 40%!important;
+    }
+
+    /*Service Main Page*/
+
+
+    /*Work Page Start*/
+    .mix_controller button {
+        font-size: 1rem;        
+        padding: 0 0rem;
+        width: 20%;
+    }
+    /*Work Page End*/
 
 }
