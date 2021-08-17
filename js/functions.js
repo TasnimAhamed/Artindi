@@ -52,7 +52,7 @@ $(document).ready(function() {
         slidesToShow: 2,
         slidesToScroll: 1,
         dots: false,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
         responsive: [{
                 breakpoint: 1025,
@@ -67,6 +67,55 @@ $(document).ready(function() {
         ]
 
 
+    });
+
+    $('.multiple-items-3').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        prevArrow: false,
+        nextArrow: false,
+        responsive: [{
+            breakpoint: 1600,
+            settings: {
+                slidesToShow: 4,
+                dots: true,
+            }
+        },{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+                dots: true,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                dots: true,
+            }
+        }, 
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                dots: true,
+            }
+        }
+    ]
+
+
+    });
+    $('.multiple-items-4').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 5000       
     });
 
 

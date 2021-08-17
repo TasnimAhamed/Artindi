@@ -21,7 +21,7 @@
 
     /*Service Banner Start*/
     .service-left h1{
-        margin-top: 2.5rem;
+        margin-top: 2rem;
     }
     .service-text{
         width: 95%;
@@ -224,6 +224,26 @@
     }
     /*Work Page End*/
 
+    /*Work Details Page*/
+    .mobile-portfolio .item figure img{
+        width: 100%;
+    }
+    .portfolio-info .col-lg-6:first-child .portfolio-info-text,
+    .portfolio-info-2 .col-lg-6:first-child .portfolio-info-text-2{
+        margin-bottom: 6rem;
+    }
+    .portfolio-info, .portfolio-info-2{
+        padding-top: 6rem;
+    }
+
+    .multiple-items-4 .slick-arrow.slick-prev{
+        left: 45%;
+      }
+      .multiple-items-4 .slick-arrow.slick-next{
+        right: 10%;
+      }
+    /*Work Details Page*/
+
 }
 @media (min-width: 576px) and (max-width:767px) {
 
@@ -387,7 +407,9 @@
      .code-services .design-service-img{
          margin-bottom: 5rem;
      }
-     .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+     .design-services .design-service-img img, 
+     .marketing-services .design-service-img img, 
+     .code-services .design-service-img img{
          width: 100%;
      }
      /*Services Page End*/
@@ -433,6 +455,35 @@
         margin-right: 5%;
     }
     /*Work Page End*/
+
+
+    /*Work Details Page*/
+    .portfolio-info .col-lg-6:first-child .portfolio-info-text,
+    .portfolio-info-2 .col-lg-6:first-child .portfolio-info-text-2{
+        margin-bottom: 6rem;
+    }
+    .portfolio-info, .portfolio-info-2{
+        padding-top: 6rem;
+    }
+
+    .multiple-items-4 .slick-arrow.slick-prev{
+        left: 65%;
+    }
+    .multiple-items-4 .slick-arrow.slick-next{
+        right: 10%;
+    }
+    .multiple-items-4 .slick-dots li {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    .multiple-items-4 .slick-dots li button {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    .portfolio-info-text h3, .portfolio-info-text-2 h3 {
+        font-size: 2.2rem;
+    }
+    /*Work Details Page*/
 
 
 
@@ -680,6 +731,35 @@
     }
     /*Work Page End*/
 
+     /*Work Details Page*/
+     .portfolio-info .col-lg-6:first-child .portfolio-info-text,
+     .portfolio-info-2 .col-lg-6:first-child .portfolio-info-text-2{
+         margin-bottom: 6rem;
+     }
+     .portfolio-info, .portfolio-info-2{
+         padding-top: 6rem;
+     }
+ 
+     .multiple-items-4 .slick-arrow.slick-prev{
+         left: 70%;
+     }
+     .multiple-items-4 .slick-arrow.slick-next{
+         right: 5%;
+     }
+     .multiple-items-4 .slick-dots li {
+         width: 1.7rem;
+         height: 1.7rem;
+     }
+     .multiple-items-4 .slick-dots li button {
+         width: 1.25rem;
+         height: 1.25rem;
+     }
+     .portfolio-info-text h3, .portfolio-info-text-2 h3 {
+         font-size: 2.2rem;
+     }
+    
+     /*Work Details Page*/
+
 
 }
 @media (min-width: 992px) and (max-width:1199px){
@@ -878,6 +958,27 @@
     }
     /*Work Page End*/
 
+    /*Work Details Page Start*/
+    .service-text {
+        width: 100%;
+    }
+    .service-text p:first-child {
+        font-size: 1.4rem;
+    }
+    .portfolio-info-text 
+    .service-text button{
+        margin-top: 1rem;
+    }
+    .portfolio-info-text-2 .service-text p{
+        font-size: 1.125rem;
+    }
+    .multiple-items-4 .slick-arrow.slick-prev{
+        left: 76%;
+    }
+    .portfolio-info-text h3, .portfolio-info-text-2 h3{
+        font-size: 2.2rem;
+    }
+    /*Work Details Page End*/
 }
 @media (min-width: 1200px) and (max-width:1399px){
 
@@ -990,7 +1091,9 @@
     /*Contact Page End*/
 
      /*Service Page*/
-     .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+     .design-services .design-service-img img, 
+     .marketing-services .design-service-img img, 
+     .code-services .design-service-img img{
         width: 100%;
     }
     .design-service-txt h2{
@@ -1067,6 +1170,28 @@
         width: 23%;
     }
     /*Work Page End*/
+
+    /*Work Details Page Start*/
+    .service-text {
+        width: 90%;
+    }
+    .service-text p:first-child {
+        font-size: 1.4rem;
+    }
+    .portfolio-info-text 
+    .service-text button{
+        margin-top: 1rem;
+    }
+    .portfolio-info-text-2 .service-text p{
+        font-size: 1.125rem;
+    }
+    .multiple-items-4 .slick-arrow.slick-prev{
+        left: 76%;
+    }
+    .portfolio-info-text h3, .portfolio-info-text-2 h3{
+        font-size: 2.2rem;
+    }
+    /*Work Details Page End*/
 
 }
 @media (min-width: 1400px) and (max-width:1599px){
@@ -1168,7 +1293,9 @@
 
 
     /*Service Page*/
-    .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+    .design-services .design-service-img img, 
+    .marketing-services .design-service-img img, 
+    .code-services .design-service-img img{
         width: 100%;
     }
     .design-service-txt h2{
@@ -1245,6 +1372,28 @@
         width: 23%;
     }
     /*Work Page End*/
+
+    /*Work Details Page Start*/
+    .service-text {
+        width: 90%;
+    }
+    .service-text p:first-child {
+        font-size: 1.4rem;
+    }
+    .portfolio-info-text 
+    .service-text button{
+        margin-top: 1rem;
+    }
+    .portfolio-info-text-2 .service-text p{
+        font-size: 1.125rem;
+    }
+    .multiple-items-4 .slick-arrow.slick-prev{
+        left: 76%;
+    }
+    .portfolio-info-text h3, .portfolio-info-text-2 h3{
+        font-size: 2.2rem;
+    }
+    /*Work Details Page End*/
 
 
 }
@@ -1355,5 +1504,27 @@
         width: 20%;
     }
     /*Work Page End*/
+
+    /*Work Details Page Start*/
+    .service-text {
+        width: 90%;
+    }
+    .service-text p:first-child {
+        font-size: 1.4rem;
+    }
+    .portfolio-info-text 
+    .service-text button{
+        margin-top: 1rem;
+    }
+    .portfolio-info-text-2 .service-text p{
+        font-size: 1.125rem;
+    }
+    .multiple-items-4 .slick-arrow.slick-prev{
+        left: 76%;
+    }
+    .portfolio-info-text h3, .portfolio-info-text-2 h3{
+        font-size: 2.2rem;
+    }
+    /*Work Details Page End*/
 
 }

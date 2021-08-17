@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Artindi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- included css start -->
+    <link rel="stylesheet" href="css/bootstrap-multiselect.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- included css end -->
+</head>
+
+<body>
+    <!--page loader start -->
+    <div id="page-loader">
+        <div class="loader"></div>
+    </div>
+
+
+    <!-- header start -->
+    <header>
+        <div class="main-nav">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.svg" alt="img" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Our Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Company</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <!-- header end -->
+
+    <!-- floting block start -->
+
+    <div id="float-blk" class="floting-blk">
+        <div class="float-header">
+            <button onclick="togglefloat()" class="x-btn">
+
+            </button>
+        </div>
+        <div class="d-flex">
+            <div onclick="togglefloat()" class="yellow-blk">
+                <figure>
+                    <img src="images/profilePic2.png" alt="img" class="img-fluid" />
+                </figure>
+
+                <h6>Need Help?</h6>
+            </div>
+            <div class="floting-info">
+                <h6>We're here for you.</h6>
+                <p class="info"><i class="icon ph-icon"></i> <button>+91 9876543210</button></p>
+                <p class="info"><i class="icon chat-icon"></i> <button>Click to chat</button></p>
+                <p class="info"><i class="icon cal-icon"></i> <button>Schedule a Meeting</button></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- floting block end -->
+
+    <!--Breadcrumb Area-->
+    <section class="service-details-breadcrumb">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Book Creation Case Study</li>
+                </ol>
+              </nav>
+        </div>
+    </section>
+    <!--Breadcrumb Area-->
+
+    <!-- banner start -->
+    <section class="hero-section service-section">
+        <div class="container">
+
+            <!--Banner Area-->
+            <div class="row align-items-center">
+                <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-7">
+                    <div class="banner-left service-left">
+                        <h1>Book Creation</h1>
+                        <div class="service-text">
+                            <p class="secondary-color">We are an award-winning USA digital agency, specialized in digital creative experiences.</p>
+                            <p class="white-color">Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-10 offset-md-1  offset-lg-0 col-lg-5">
+                    <div class="service-right">
+                        <form>
+                            <p class="secondary-color">Improve results with a better website today</p>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Full Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group multiselect-service">
+                                        <select class="form-control" id="service-select" multiple="multiple">
+                                            <option value="multiselect-all"> Select all</option>
+                                            <option value="ui / ux (web & app Design)">UI / UX (Web & App Design)</option>
+                                            <option value="branding / graphic design">Branding / Graphic Design</option>
+                                            <option value="code / development">Code / Development</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="How can we help you?"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+
+                                    <button class="btn btn-primary btn-block hvr-sweep-to-bottom">
+                                        Submit
+                                    </button>
+
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--Banner Area-->
+        </div>
+    </section>
+    <!-- banner end -->
+
+    <!--Portfolio Info Section-->
+
+    <section class="portfolio-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="portfolio-info-text">
+                        <h3>Challenges</h3>
+                        <div class="service-text">
+                            <p class="secondary-color">We are an award-winning USA digital agency, specialized in digital creative experiences.</p>
+                            <p class="white-color">Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology. Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology.
+                            </p>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio-info-text">
+                        <h3>Solutions</h3>
+                        <div class="service-text">
+                            <p class="secondary-color">We are an award-winning USA digital agency, specialized in digital creative experiences.</p>
+                            <p class="white-color">Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology. Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology.
+                            </p>
+                            <button class="btn btn-primary btn-block hvr-sweep-to-bottom">Visit Website</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio Info Section-->
+
+
+    <!--Portfolio Image Section => Single Image-->
+    <div class="portfolio-single-img">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="portfolio-laptop-img">
+                        <img src="./images/portfolio-img.png" alt="img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio Image Section => Single Image-->
+
+    <!--Portfolio Info Section-->
+
+    <section class="portfolio-info-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="portfolio-info-text-2">
+                        <h3>Our Approach</h3>
+                        <div class="service-text">
+                            <p class="white-color">Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology. Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology.</p>
+                            <p class="white-color">Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology.</p>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio-info-text-2">
+                        <h3>Results</h3>
+                        <div class="service-text">
+                            <p class="white-color">Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology. Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology.
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio Info Section-->
+
+
+    <!--Slider Area will go Here-->
+
+    <section class="mockup-slider">
+        <div class="container">
+            <div class="mock-up-slider-wrapper">
+                <div class="multiple-items-4">
+                    <div class="item">
+                        <figure>
+                            <img src="./images/homepage-slider.svg" alt="img" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure>
+                            <img src="./images/homepage-slider.svg" alt="img" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure>
+                            <img src="./images/homepage-slider.svg" alt="img" class="img-fluid">
+                        </figure>
+                    </div>                   
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Slider Area will go Here-->
+
+
+    <!--Mobile portfolio area-->
+    <section class="mobile-portfolio">
+        <div class="container">
+            <div class="mp-border-bottom">
+                <div class="multiple-items-3">
+                    <div class="item">
+                        <figure>
+                            <img src="./images/iPhone.svg" alt="img" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure>
+                            <img src="./images/iPhone.svg" alt="img" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure>
+                            <img src="./images/iPhone.svg" alt="img" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure>
+                            <img src="./images/iPhone.svg" alt="img" class="img-fluid">
+                        </figure>
+                    </div>
+                     <div class="item">
+                        <figure>
+                            <img src="./images/iPhone.svg" alt="img" class="img-fluid">
+                        </figure>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Mobile portfolio area-->
+
+     <!--Portfolio Info Section-->
+
+    <section class="portfolio-info-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="portfolio-info-text-2">
+                        <h3>Prev Case Study</h3>
+                        <div class="service-text">
+                            <p class="white-color">Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology.</p>
+                            <button class="btn prev-case-study hvr-sweep-to-bottom">View Case Study</button>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio-info-text-2">
+                        <h3>Next Case Study</h3>
+                        <div class="service-text">
+                            <p class="white-color">Thanks to a team of young, dynamic and motivated talents, for over 15 years we have been carrying out cutting-edge projects with unique and innovative design, combining creativity, strategy and technology.</p>
+                            <button class="btn next-case-study hvr-sweep-to-bottom">View Case Study</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio Info Section-->
+
+
+
+
+
+
+
+
+
+
+
+    <!--Build Website Section Start-->
+
+    <section class="build-website">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-xl-4">
+                    <div class="build-website-content">
+                        <h3>Do you want to know more about building websites?</h3>
+                        <p>Or do you want to know whether your website still meets the requirements?</p>
+                        <p>We are happy to help you.</p>
+                    </div>
+                </div>
+                <div class="col-md-7 col-xl-7 offset-xl-1">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="First Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group multiselect-service">
+                                    <select class="form-control" id="service-select2" multiple="multiple">
+                                        <option value="multiselect-all"> Select all</option>
+                                        <option value="ui / ux (web & app Design)">UI / UX (Web & App Design)</option>
+                                        <option value="branding / graphic design">Branding / Graphic Design</option>
+                                        <option value="code / development">Code / Development</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="How can we help you?"></textarea>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-6">
+    
+                                <button class="btn btn-primary btn-block hvr-sweep-to-bottom">
+                                    Submit
+                                </button>
+    
+                            </div>
+                        </div>
+    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Build Website Section End-->
+    
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row cust-row">
+                <div class="col-md-4 cust-col">
+                    <figure>
+                        <img src="images/logo.svg" alt="img" />
+                    </figure>
+
+                    <div class="abt-blk">
+                        <h6 class="mb-2 mt-4">OUR GUARANTEE</h6>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College
+                            in Virginia.</p>
+                    </div>
+
+                    <ul class="social-media">
+                        <li>
+                            <a class="fb" href="javascript://">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="twt" href="javascript://">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="yt" href="javascript://">
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="col-md-2 cust-col">
+                    <h5 class="f-heading">Company</h5>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="javascript://">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                About Us
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                Contact Us
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-2 cust-col">
+                    <h5 class="f-heading">Quick LInks</h5>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="javascript://">
+                                Design
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                Development
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript://">
+                                SEO
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 cust-col">
+                    <h5 class="f-heading">More Info</h5>
+                    <p class="address mb-2">Vernon, CA 90051 US</p>
+                    <p class="timings">Monday – Saturday: 7:00 am to 7:00 pm PST</p>
+                </div>
+                <div class="col-12">
+                    <div class="copyright">
+                        <p> &copy; Copyright 2021</p>
+                        <p>All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- included scripts start -->
+    <script src=" js/jquery.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/aos.js "></script>
+    <script src="js/slick.js "></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/bootstrap-multiselect.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <script src="js/functions.js "></script>
+    <!-- included scripts end -->
+
+    <script>
+        $(document).ready(function(){
+
+            $(window).scroll(function(){
+                var navFixed = $(window).scrollTop();
+                if(navFixed > 200){
+                    $(".main-nav").addClass("fixed-top fadeInDown");
+                }else{
+                    $(".main-nav").removeClass("fixed-top fadeInDown");
+                }
+            });
+
+            $('#service-select').multiselect({
+                includeSelectAllOption: true
+            });
+            
+            $('#service-select2').multiselect({
+                includeSelectAllOption: true
+            });
+
+        })
+    </script>
+</body>
+
+</html>
