@@ -106,9 +106,8 @@ $(document).ready(function() {
             }
         }
     ]
-
-
     });
+
     $('.multiple-items-4').slick({
         infinite: true,
         slidesToShow: 1,
@@ -116,6 +115,39 @@ $(document).ready(function() {
         dots: true,
         autoplay: true,
         autoplaySpeed: 5000       
+    });
+
+    $('.multiple-items-5').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        dots: false,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        prevArrow: false,
+        nextArrow: false,
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
+                dots: true,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                dots: true,
+            }
+        }, 
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                dots: true,
+            }
+        }
+    ]
     });
 
 

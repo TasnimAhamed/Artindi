@@ -38,7 +38,7 @@
     .service-details-area{
         padding-top: 5rem;
     }
-    .package-area button{
+    .package-area button.btn.btn-primary{
         margin-top: 60px;
     }
     .recent-project-text p{
@@ -60,7 +60,7 @@
         width: 100%;
     }
     .project-card .content-hover button {
-        width: 15rem;
+        width: 13rem;
         height: 3rem;
         font-size: 16px;
     }
@@ -89,60 +89,32 @@
     /*Service Banner End*/
 
     /*Package Area*/
-    .package-area .col-xl-4{
-        padding-right: 15px;
-        padding-left: 15px;
+    .card-sm-2 .card-header{
+        padding-left: 1rem;
     }
-    .package-area .card{
-        min-height: 44rem;
-        height: 44rem;
+    .card-sm-2 .package-price{
+        padding-left: 0;
+        padding-top: 2.5rem;
     }
-    .card1{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .card1 .card-header{
-        padding:40px 20px;
+    .package-price h3{
+        font-size:2.6rem;
     }
     .package-area .card .card-body{
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
-    .card1 .card-header img {
-        width: 8rem;
+    .card-sm-3 .card-header img {
+        width: 13.25rem;
+        border-radius: 2.5rem;
     }
-    .card2{
-        width: 100%;
-        transform: scale(1);
-        margin:2rem 0;
+    .card-sm-3 .package-price{
+        padding-left: 1rem;
     }
-    .card2 .card-header{
-        padding-left: 20px;
+    .card-sm-1  .card-body{
+        padding-top: 4rem;
     }
-    .card2 .card-header img{
-        width: 10rem;
-    }
-    .card2 .package-price {
-        padding-left: 1.2rem;
-    }
-    .card3{
-        width: 100%;
-        margin-left: 0;
-    }
-    .card3 .card-header img {
-        width: 12rem;
-        border-radius: 16px;
-    }
-    .card3 .card-header{
-        padding-left: 0;
-        padding-bottom: 3rem;
-    }
-    .package-price{
-        padding-left:2rem;
-    }
-    .card-footer img{
-        width: 100%;
+    .card-sm-2  .card-body{
+        padding-top: 2.8rem;
     }
     /*Package Area*/
 
@@ -165,6 +137,9 @@
 
 
     /*Services Page Start*/
+    .lg-view-package{
+        display: none;
+    }
     .design-service-btn,
     .code-service-btn{
         margin-bottom: 1.5rem;
@@ -329,46 +304,9 @@
         min-height: 48rem;
         height: 48rem;
     }
-    .card1{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .card1 .card-header{
-        padding:3rem 6rem;
-    }
     .package-area .card .card-body{
         padding-right: 6rem;
         padding-left: 6rem;
-    }
-    .card1 .card-header img {
-        width: 12rem;
-    }
-    .card2{
-        width: 100%;
-        transform: scale(1);
-        margin:2rem 0;
-    }
-    .card2 .card-header{
-        padding-left: 20px;
-    }
-    .card2 .card-header img{
-        width: 15rem;
-    }
-    .card2 .package-price {
-        padding-left: 3.2rem;
-    }
-    .card3{
-        width: 100%;
-        margin-left: 0;
-    }
-    .card3 .card-header img {
-        width: 15rem;
-        border-radius: 16px;
-    }
-    .card3 .card-header{
-        padding-left: 0;
-        padding-bottom: 3rem;
     }
     .package-price{
         padding-left:5rem;
@@ -395,7 +333,9 @@
     /*Contact Page start*/
 
      /*Services Page Start*/
-
+     .lg-view-package{
+        display: none;
+    }
      .design-service-btn,
      .code-service-btn{
          margin-bottom: 3rem;
@@ -576,50 +516,45 @@
     /*Service Banner End*/
 
     /*Package Area*/
-
-    .card1{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .card1 .card-header {
-        padding: 4rem 2rem;
-    }
-    .package-area .card .card-body{
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    .card2{
-        width: 100%;
-        transform: scale(1);
-    }
-    .card2 .card-header{
-        padding-left: 1.2rem;
-        padding-bottom: 5rem;
-    }
-    .card2 .card-header img{
-        width:10rem;
-    }
-    .card2 .package-price{
-        padding-left: 1rem;
-    }
-    .card3{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 2rem;
-    }
-    .card3 .card-header{
-        padding-left: 1rem;
-    }
-    .card3 .card-header img{
-        width: 11rem;
+    .card-sm-1 .card-header img{
+        margin-right: 1rem;
     }
     .package-price{
-        padding-left: 2rem;
+        padding-left: 0.6rem;
+    }
+    .card-sm-2 .card-header img {
+        width: 10.25rem;
     }
     .package-price h3 {
-        font-size:2.5rem;
+        font-size: 2.2rem;
+    }
+    .package-details div{
+        align-items: flex-start!important;
+    }    
+    .package-details div img[src="./images/tick1.svg"]{
+        margin-top: 0.6rem;
+    }
+    .card-sm-1 .package-price {
+        margin-top: 0.2rem;
+    }
+    .card-sm-3 .package-price {
+        margin-top: 0.8rem;
+    }
+    .card-sm-3 .card-header img {
+        width: 12.25rem;
+    }    
+    .package-area .card .card-body{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .package-area .card.card-sm-1 .card-body{
+        padding-top: 3.5rem;
+    }
+    .package-area .card.card-sm-2 .card-body{
+        padding-top: 2.4rem;
+    }
+    .card-sm-2 .card-header{
+        padding-left: 0.6rem;
     }
     /*Package Area*/
 
@@ -657,7 +592,9 @@
      .code-services .design-service-img{
          margin-bottom: 5rem;
      }
-     .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+     .design-services .design-service-img img, 
+     .marketing-services .design-service-img img, 
+     .code-services .design-service-img img{
          width: 100%;
      }
      .design-service-btn a, .code-service-btn a, .marketing-service-btn a{
@@ -675,7 +612,9 @@
      /*Services Page End*/
 
      /*Service Main Page*/
-
+     .lg-view-package{
+        display: none;
+    }
     .design-services-area{
         padding-top: 8rem;
     }
@@ -804,57 +743,22 @@
     }
 
     /*Package Area*/
-
-    .card1{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .card1 .card-header {
-        padding: 4rem 2rem;
-    }
-    .package-area .card .card-body{
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    .package-area .col-xl-4{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .card2{
-        width: 100%;
-        transform: scale(1);
-    }
-    .card2 .card-header{
-        padding-left: 1.2rem;
-        padding-bottom: 5rem;
-    }
-    .card2 .card-header img{
-        width:10rem;
-    }
-    .card2 .package-price{
-        padding-left: 1rem;
-    }
-    .card3{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 2rem;
-    }
-    .card3 .card-header{
-        padding-left: 1rem;
-    }
-    .card3 .card-header img{
-        width: 11rem;
+    .card-sm-1 .card-header img{
+        margin-right: 1rem;
     }
     .package-price{
-        padding-left: 2rem;
+        padding-left: 1rem;
     }
-    .package-price h3 {
-        font-size:2.5rem;
+    
+    .package-area .card .card-body{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
-    .package-area h2{
-        margin-bottom: 4rem;
+    .package-area .card.card-sm-1 .card-body{
+        padding-top: 3.5rem;
+    }
+    .package-area .card.card-sm-2 .card-body{
+        padding-top: 2.4rem;
     }
     /*Package Area*/
 
@@ -871,7 +775,12 @@
     /*Contact Page End*/
 
     /*Service Page*/
-    .design-services .design-service-img img, .marketing-services .design-service-img img, .code-services .design-service-img img{
+    .lg-view-package{
+        display: none;
+    }
+    .design-services .design-service-img img, 
+    .marketing-services .design-service-img img, 
+    .code-services .design-service-img img{
         width: 100%;
     }
     .design-service-txt h2{
