@@ -433,6 +433,13 @@
 }
 @media (min-width: 768px) and (max-width:991px) {
 
+    /*NavBar Area*/
+    header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: inline-block;
+        margin-bottom: 1.5rem;
+    }
+    /*NavBar Area*/
+
     /*Breadcrumb Area*/
     .service-details-breadcrumb {
          padding-top: 0px; 
