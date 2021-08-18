@@ -71,7 +71,10 @@
     }
     .feature-box{
         height: 280px;
-        padding:2rem;
+        padding:2.2rem;
+    }
+    .feature-box img{
+        width: 65px;
     }
     .feature-text h5 {
         width: 8rem;line-height:2.5rem;
