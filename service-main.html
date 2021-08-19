@@ -15,7 +15,7 @@
     <!-- included css end -->
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#design-services-list">
     <!--page loader start -->
     <div id="page-loader">
         <div class="loader"></div>
@@ -106,7 +106,7 @@
 
             <!--Banner Area-->
             <div class="row align-items-center">
-                <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-7">
+                <div class="col-md-10 col-lg-7">
                     <div class="banner-left service-left">
                         <h1>Design</h1>
                         </h1>
@@ -118,7 +118,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-10 offset-md-1  offset-lg-0 col-lg-5">
+                <div class="col-md-10 col-lg-5">
                     <div class="service-right">
                         <form>
                             <p class="secondary-color">Improve results with a better website today</p>
@@ -217,7 +217,7 @@
                     </div>
                 </div>
                 <div class="col-md-8 col-lg-7 offset-lg-1">
-                    <div data-spy="scroll" data-target="#design-services-list" data-offset="0" class="scrollspy-example">
+                    <div  data-offset="0" class="scrollspy-example">
                         <div id="logo-design">
                             <img class="img-fluid" src="images/recent-project-card.svg" class="img-fluid" alt="img" />
                             <div class="design-services-content">
@@ -272,14 +272,14 @@
     <section class="build-website">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 col-xl-4">
+                <div class=" col-lg-5 col-xl-4">
                     <div class="build-website-content">
                         <h3>Do you want to know more about building websites?</h3>
                         <p>Or do you want to know whether your website still meets the requirements?</p>
                         <p>We are happy to help you.</p>
                     </div>
                 </div>
-                <div class="col-md-7 col-xl-7 offset-xl-1">
+                <div class=" col-lg-7 col-xl-7 offset-xl-1">
                     <form>
                         <div class="row">
                             <div class="col-md-6">
@@ -473,7 +473,7 @@
         $(document).ready(function(){
             $('body').scrollspy({ 
                 target: '#design-services-list',
-                offset:110
+                offset:105
             });
             $('.design-services-area').waypoint(function(direction){
                 if(direction=="down"){

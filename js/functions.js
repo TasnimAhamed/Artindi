@@ -114,7 +114,16 @@ $(document).ready(function() {
         slidesToScroll: 1,
         dots: true,
         autoplay: true,
-        autoplaySpeed: 5000       
+        autoplaySpeed: 5000,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+                prevArrow: false,
+                nextArrow: false
+            }
+        }
+
+    ]       
     });
 
     $('.multiple-items-5').slick({
