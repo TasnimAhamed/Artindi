@@ -2769,7 +2769,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   transition:0.1s ease-in-out;
 }
 .multiselect-native-select .btn-group.show .custom-select{
-  background:url('./../images/up-arrow.svg') no-repeat right .75rem center/18px 20px;
+  background:url('./../images/up-arrow.svg') no-repeat right .75rem center/12px 20px;
 }
 .custom-select:focus{
   border-color: #F1BC1E;
@@ -3133,7 +3133,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
 
 .build-website form .custom-select{
   background-color: #151727;
-  background-image:url('./../images/down-arrow.svg') no-repeat right .75rem center/18px 20px;
+  background-image:url('./../images/down-arrow.svg') no-repeat right .75rem center/12px 20px;
   position: relative;
   transition:0.1s ease-in-out;
 }

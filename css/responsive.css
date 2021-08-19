@@ -200,8 +200,10 @@
         display: none;
     }
     .design-services-content a{
-        width: 13rem!important;
-        margin-top: 0.8rem;
+        width: 12rem!important;
+        margin-top: 0.5rem;
+        height: 3.2rem!important;
+        line-height: 3.2rem!important;
     }
     .design-service-area-text .list-group a img{
         visibility: visible;
@@ -489,7 +491,7 @@
         display: inline-block;
         margin-bottom: 1.5rem;
     }
-    header .navbar .navbar-collapse{
+    header .navbar .navbar-collapse ul{
         padding-top: 1.5rem;
     }
     /*NavBar Area*/
@@ -535,7 +537,10 @@
         margin-top: 2rem;
     }
     .service-info-img img{
-        margin-top: 5rem;
+        margin-top: 2.5rem;
+    }
+    .card-sm-1 .card-header{
+        padding-left: 2rem;
     }
     .recent-project-text p{
         width: 100%;
@@ -569,11 +574,16 @@
     .recent-project-text h2,
     .feature-area h2{
         font-size:2rem;
+        margin-bottom: 1.5rem;
     }
 
     .feature-box{
         height: 260px;
         padding:2rem;
+        margin-top: 2rem;
+    }
+    .recent-project-text{
+        margin-bottom: 1rem;
     }
     .build-website{
         padding-top: 4rem;
@@ -658,12 +668,8 @@
     /*Contact Page Start*/
 
      /*Services Page Start*/
-     .design-service-btn,
-     .code-service-btn{
-         margin-bottom: 3rem;
-     }
-     .design-services, .marketing-services, .code-services{
-         padding-top: 5rem;
+    .design-services, .marketing-services, .code-services{
+         padding-top: 6rem;
      }
      .design-services .design-service-img, .marketing-services .design-service-img,
      .code-services .design-service-img{
