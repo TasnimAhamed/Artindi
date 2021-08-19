@@ -3031,6 +3031,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   width:120px;
   font-size: 1.2rem;
   padding-bottom: 4px;
+  font-family: 'rns_sanzbold';
 }
 .lg-view-cards .project-card:hover .content{
   display: none;
@@ -3366,6 +3367,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   margin-bottom: 0.8rem;
 }
 .design-service-area-text .list-group a img{
+  width: 1.25rem;
   margin-right: 0.8rem;
   visibility: hidden;
 }

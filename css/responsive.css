@@ -81,14 +81,16 @@
         font-size:2rem;
     }
     .feature-box{
-        height: 275px;
-        padding:2.2rem;
+        height: 175px;
+        padding:2rem;
     }
     .feature-box img{
-        width: 65px;
+        width: 55px;
     }
     .feature-text h5 {
-        width: 8rem;line-height:2.5rem;
+        width: 75%;
+        line-height:2.5rem;
+        font-size: 0.8rem;
     }
     .build-website{
         padding-top: 4rem;
