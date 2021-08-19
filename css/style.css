@@ -3024,14 +3024,16 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after, h
   margin-bottom: 1rem;
   font-family: 'rns_sanzbold';
 }
-.project-card .content button.rp-btn{
+.project-card .content span.rp-btn{
   color: #000;
   background-color: #F1BC1E;
   border-radius:40px;
   width:120px;
   font-size: 1.2rem;
   padding-bottom: 4px;
+  padding-top: 2px;
   font-family: 'rns_sanzbold';
+  text-align: center;
 }
 .lg-view-cards .project-card:hover .content{
   display: none;
