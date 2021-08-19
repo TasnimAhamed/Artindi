@@ -647,6 +647,10 @@
     .card-sm-2 .card-header{
         padding-left: 0.6rem;
     }
+    .project-card .content span.rp-btn{
+        width: 100px;
+        font-size: 1rem;
+    }
     /*Package Area*/
 
     /*Contact Page Start*/
