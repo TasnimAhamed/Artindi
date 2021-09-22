@@ -14,7 +14,7 @@
 			opacity = (opacity < 0) ? 0 : opacity;
 			opacity = (opacity > 1) ? 1 : opacity;
 		if(opacity >= 0 && opacity <= 1) {
-			document.getElementsByTagName("BODY")[0].style.opacity = `${opacity}!important`;
+			document.getElementsByTagName("BODY")[0].style.opacity = opacity;
 		}
 	}
 })()
